@@ -1,4 +1,4 @@
-import '../../domain/entities.dart';
+import domain/entities.dart';
 
 abstract class ExtractorEngine {
   Future<MediaInfo> resolve(String url);
